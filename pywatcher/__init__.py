@@ -1,7 +1,7 @@
 import os.path
 from subprocess import check_call
 
-def compile(config):
+def watch(config):
     cdir = os.path.abspath(os.path.dirname(__file__))
     gcin = os.path.join(cdir, 'watcher/bin/watcher')
     cmd = [
