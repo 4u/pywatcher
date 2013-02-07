@@ -3,7 +3,7 @@ from setuptools import setup
 from setuptools.command.develop import develop
 from subprocess import check_call
 
-DESCRIPTION = 'Python wrapper for watcher (http://github.com/4u/watcher'
+DESCRIPTION = 'Python wrapper for watcher (http://github.com/4u/watcher)'
 
 def install_deps():
     print "Installing dependencies"
