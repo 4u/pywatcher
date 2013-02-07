@@ -23,7 +23,7 @@ class do_develop(develop):
 setup(
     cmdclass={'develop': do_develop,},
     name='pywatcher',
-    version='0.1.3',
+    version='0.1.4',
     packages=['pywatcher'],
     package_dir={'pywatcher': '.'},
     package_data={'pywatcher': ['pywatcher/*']},
